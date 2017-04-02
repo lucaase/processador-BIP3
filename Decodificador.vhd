@@ -79,7 +79,7 @@ BEGIN
 				ELSIF (Opcode = "01111") THEN
 					prox_estado <= NO;
 				ELSIF ( Opcode = "10000") THEN
-	                prox_estado <= ANND;
+	                		prox_estado <= ANND;
 				ELSIF ( Opcode = "10001") THEN
 					prox_estado <= ANNDI;
 				ELSIF ( Opcode = "10010") THEN
